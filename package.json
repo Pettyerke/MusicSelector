@@ -1,0 +1,20 @@
+{
+  "name": "musicselector",
+  "version": "1.0.0",
+  "description": "Music Selector",
+  "main": "main.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha .\\js\\*.spec.js",
+    "start": "node .\\js\\main.js"
+  },  
+  "author": "Berezvay Péter",
+  "license": "ISC"
+}
